@@ -1,29 +1,6 @@
 #include "main.h"
 #include <stdio.h>
 
-<<<<<<< HEAD
-int main()
-{
-	int n = 1;
-	int mul3;
-	int show;
-
-	do
-	{
-		mul3 = 3 * n;
-
-		if (n == mul3)
-		{
-			show = 333;
-		printf("%d Fizz", show);
-		}
-		n++;
-	}
-	while (n <= 100);
-	printf("\n");
-	printf("%d ", n);
-	return 0;
-=======
 /**
  * main - It is Fizz-Buzz test
  * Return: print results
