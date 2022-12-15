@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * main - Finds and prints the largest prime
@@ -24,8 +25,5 @@ int main(void)
 				prime /= div;
 		}
 	}
-
-	printf("%ld\n", prime);
-
 	return (0);
 }
