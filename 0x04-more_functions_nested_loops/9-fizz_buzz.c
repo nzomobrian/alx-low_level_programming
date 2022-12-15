@@ -1,45 +1,68 @@
 #include "main.h"
-#include "stdio.h"
+#include <stdio.h>
 
+<<<<<<< HEAD
+int main()
+{
+	int n = 1;
+	int mul3;
+	int show;
+
+	do
+	{
+		mul3 = 3 * n;
+
+		if (n == mul3)
+		{
+			show = 333;
+		printf("%d Fizz", show);
+		}
+		n++;
+	}
+	while (n <= 100);
+	printf("\n");
+	printf("%d ", n);
+	return 0;
+=======
 /**
- * main - Prints the numbers from 1-100, but for multiples of three,
- *        Fizz is printed instead of the number, for multiples of five,
- *        Buzz, and for multiples of both three and five, FizzBuzz.
- *
- * Return: Always 0.
+ * main - It is Fizz-Buzz test
+ * Return: print results
  */
 int main(void)
 {
-        int num;
+	int n;
 
-	for (num = 1; num <= 100; num++)
+	for (n = 1; n <= 100; n++)
 	{
-		if ((num % 3) == 0 && (num % 5) == 0)
-		_putchar('F');
-		_putchar('i');
-		_putchar('z');
-		_putchar('z');
-		_putchar('b');
-		_putchar('u');
-		_putchar('z');
-		_putchar('z');
-		
-		if ((num % 3) == 0)
-		_putchar('F');
-		_putchar('i');
-		_putchar('z');
-		_putchar('z');
-	       
-		if ((num % 5) == 0)
-		_putchar('B');
-		_putchar('u');
-		_putchar('z');
-		_putchar('z');
+		if (n % 3 == 0 || n % 5 == 0)
+		{
+			if (n % 3 == 0 && n % 5 == 0)
+			{
+				printf("FizzBuzz ");
+			}
 
-                if (num == 100)
-                        continue;
-                printf(" ");
-        }
-        return (0);
+			if (n % 3 == 0 && n % 5 != 0)
+			{
+				printf("Fizz ");
+			}
+			if (n % 5 == 0 && n % 3 != 0)
+			{
+				if (n == 100)
+				{
+					printf("Buzz");
+				}
+				else
+				{
+					printf("Buzz ");
+				}
+			}
+		}
+		else
+		{
+			printf("%d ", n);
+		}
+	}
+	printf("\n");
+	return (0);
+
 }
-
