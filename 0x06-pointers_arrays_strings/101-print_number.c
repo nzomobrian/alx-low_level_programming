@@ -12,7 +12,7 @@ void print_number(int n)
 	
 	if (num < 0)
 	{
-		_putchar('-');
+		_putchar('_');
 		num = -num;
 	}
 	elif ((num / 10) > 0)
