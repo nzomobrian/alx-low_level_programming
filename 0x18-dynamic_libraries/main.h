@@ -25,4 +25,3 @@ int nrandom();
 
 
 #endif /* __MAIN__ */
-
