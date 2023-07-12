@@ -71,7 +71,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 }
 
 /**
- * free_dog - Frees all memory allocated by a dog_t struct
+ * free_dog - Frees all memory allocated by a dog_t struct 
  * @d: Pointer to the struct to be freed
  */
 void free_dog(dog_t *d)
