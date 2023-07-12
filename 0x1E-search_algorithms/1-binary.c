@@ -8,9 +8,7 @@
  *
  * Return: No Return
  */
-
 void print_array(int *array, int min, int max)
-
 {
 	int i;
 
@@ -29,9 +27,7 @@ void print_array(int *array, int min, int max)
  *
  * Return: Index where value is located or -1
  */
-
 int binary_search(int *array, size_t size, int value)
-
 {
 	int min, max, mid;
 

@@ -10,9 +10,7 @@
  *
  * Return: Index where value is located or -1
  */
-
 int jump_search(int *array, size_t size, int value)
-
 {
 	size_t step, pos, i, min;
 

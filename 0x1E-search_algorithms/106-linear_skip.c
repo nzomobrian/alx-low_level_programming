@@ -7,9 +7,7 @@
  *
  * Return: Pointer on the first node where value is located or NULL
  */
-
-skiplist_t *linear_skip(skiplist_t *list, int value);
-
+skiplist_t *linear_skip(skiplist_t *list, int value)
 {
 	size_t i;
 	skiplist_t *node_pos, *node_min;

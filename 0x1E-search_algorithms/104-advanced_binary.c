@@ -8,9 +8,7 @@
  *
  * Return: No Return
  */
-
 void print_arrayAd(int *array, int min, int max)
-
 {
 	int i;
 
@@ -19,7 +17,6 @@ void print_arrayAd(int *array, int min, int max)
 
 	printf("%d\n", array[i]);
 }
-
 /**
  * auxBinary - searches for a value in a sorted array of integers
  * using the Binary search algorithm
@@ -30,9 +27,7 @@ void print_arrayAd(int *array, int min, int max)
  *
  * Return: Index where value is located or -1
  */
-
 int auxBinary(int *array, int min, int max, int value)
-
 {
 	int mid;
 
@@ -59,7 +54,6 @@ int auxBinary(int *array, int min, int max, int value)
 	return (auxBinary(array, mid + 1, max, value));
 
 }
-
 /**
  * advanced_binary - searches for a value in a sorted array of integers
  * using the Binary search algorithm (Returns First Ocurrence)
@@ -69,9 +63,7 @@ int auxBinary(int *array, int min, int max, int value)
  *
  * Return: First index where value is located or -1
  */
-
 int advanced_binary(int *array, size_t size, int value)
-
 {
 
 	if (!array || size == 0)

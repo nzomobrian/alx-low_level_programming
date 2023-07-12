@@ -8,9 +8,7 @@
  *
  * Return: No Return
  */
-
 void print_arrayEx(int *array, int min, int max)
-
 {
 	int i;
 
@@ -30,9 +28,7 @@ void print_arrayEx(int *array, int min, int max)
  *
  * Return: Index where value is located or -1
  */
-
 int binary_searchEx(int *array, int min, int max, int value)
-
 {
 	size_t mid;
 
@@ -54,7 +50,6 @@ int binary_searchEx(int *array, int min, int max, int value)
 
 	return (-1);
 }
-
 /**
  * exponential_search - searches for a value in a sorted array of integers
  * using the Exponential search algorithm
@@ -64,9 +59,7 @@ int binary_searchEx(int *array, int min, int max, int value)
  *
  * Return: Index where value is located or -1
  */
-
 int exponential_search(int *array, size_t size, int value)
-
 {
 	size_t range;
 	int high;
